@@ -88,7 +88,7 @@ To combine two files i used the command
 
 ## The Screenshot of the google maps 
 
-![](Screenshot.png)
+![](Coordinates-Location/Screenshot.png)
 
 ## Making the SOLUTION.md file 
 
@@ -97,3 +97,25 @@ For making the SOLUTION.md file I used
 > cat > SOLUTION.md
 
 > nano SOLUTION.md
+
+## Cloning and pushing to github.
+
+For cloning and pushing to my github repository i used 
+
+> git clone <my repository link>
+ 
+> git add .
+
+> git status
+ 
+
+> git commit -m <my commit message>
+
+> git log
+ 
+> git push origin main 
+ 
+
+
+
+
