@@ -1,0 +1,44 @@
+<html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+
+<!--Visualise the chart based on the data from data.js-->
+<center> <h1>Sale of pizzas on a random day.</h1>
+  <canvas id="myChart" width="400" height="400"></canvas>
+<script>
+  var xValues = ['MON','TUE','WED','THUS','FRI','SAT','SUN'];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      label: 'Chicago Pizza',
+      data: [10,83,30,175,25,43,250],
+      borderColor: "red",
+      fill: false
+    },{
+      label: 'New York-Style Pizza',
+      data: [100,45,23,75,45,56,21],
+      borderColor: "green",
+      fill: false
+    },{
+      label: ' Detroit Pizza',
+      data: [45,69,75,2,89,10,45],
+      borderColor: "blue",
+      fill: false
+    }]
+  },
+  options: {
+    legend: {display: true}
+  }
+});
+
+</script>
+
+</center>
+</body>
+</html>

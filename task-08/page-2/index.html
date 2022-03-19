@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JS</title>
+    <script src="/page-2/js/index.js"></script>
+    <!--All defined functions above (^-^) -->
+  </head>
+
+  <body>
+    <!--defined a fuction in js for LocalStorage -->
+    <button class="button" onclick= "custom_store()">Button-1</button>
+    <!--defined a function in js for date -->
+    <button class="button" onclick= "pop_up()">Button-2</button>
+    <!--On click of Button-3 change the background-->
+    <button class="button" onclick= "background_X()" >Button-3</button>
+    <!--On click of Button-4 refresh the page-->
+    <button class="button" onclick="window.location.reload();">Button-4</button>
+    <!--On click of Button-5 open a new window-->
+    <button class="button" onclick="new_window()">Button-5</button>
+    <!--On click of Button-6 spam the console with 'I did it'-->
+    <button class="button" onclick=" spam()">Button-6</button>
+    
+    <form>
+      <button 
+      type="submit"
+      class="button"
+      onclick="this.classList.add('button--loading')"
+      formaction="/page-3/chart.html">Next</button>
+    </form>
+  </body>
+</html>
+<!-- (^-^) (^o^) finished-->
