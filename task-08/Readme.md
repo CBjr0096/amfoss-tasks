@@ -4,12 +4,12 @@ This task was very intresting and informative.I learned a lot about javascript, 
 I have linked the screenshots of task below.
 
 ## **Page-1**
-![page-1](/page 1.png)
+![page-1](/task-08/page 1.png)
 
 ## **Page-2**
-![page-2](/page 2.png)
+![page-2](/task-08/page 2.png)
 
 ## **Page-3**
-![page-3](/page 3.png)
+![page-3](/task-08/page 3.png)
 
   
