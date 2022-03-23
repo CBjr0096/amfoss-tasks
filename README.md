@@ -9,7 +9,7 @@
 | 04 | -- |
 | 05 | Completed |
 | 06 | -- |
-| 07 | -- |
+| 07 | Partially completed |
 | 08 | Completed |
 | 09 | Completed |
 | 10 | -- |
